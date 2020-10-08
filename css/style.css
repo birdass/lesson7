@@ -1,0 +1,27 @@
+:root {
+    --dark-color: rgba(0, 0, 0, 0.5);
+    --medium-color: #333;
+    --light-color: rgba(87, 99, 124, 0.5);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Calligraffitti', cursive;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--light-color);
+    padding: 2rem;
+}
+
+.header{
+    height: 95vh;
+    background-image: linear-gradient(to bottom right, var(--light-color), var(--dark-color)), url("../img/pexel.jpg");
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 0, 100% 6%, 100% 100%, 0 93%);
+}
